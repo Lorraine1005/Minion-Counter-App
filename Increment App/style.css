@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(Minions.jpg);
+  background-size: cover;
+  font-family: "Pangolin", cursive;
+  color: #634a32;
+}
+.app-card {
+  padding: 3.2rem 4rem 8rem;
+  border-radius: 11px;
+  margin: 10rem auto;
+  max-width: 40rem;
+  background-color: #e7dfc7f6;
+  text-align: center;
+}
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#count-el {
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: 2.5rem;
+}
+
+.btn {
+  padding: 1.5rem 2rem;
+  margin-top: 1rem;
+  border-radius: 11px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+#save-btn {
+  margin-left: 1rem;
+  background-color: #dcbb41;
+  color: #fff;
+}
+#save-btn:hover,
+#increment-btn:hover {
+  background-color: #634a32;
+}
+
+#increment-btn {
+  background-color: #444d6b;
+  color: #fff;
+}
+#save-el {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 20%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
